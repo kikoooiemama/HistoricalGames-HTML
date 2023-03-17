@@ -1,0 +1,40 @@
+.aboutus {
+    height: 500px;
+    background-color: white;
+    /*    position: relative;*/
+    margin-left: 475px;
+    margin-top: 81px;
+}
+
+.about {
+    display: inline-block;
+    float: left;
+}
+
+.about p {
+    width: 398px;
+    color: #999999;
+    font-family: "Roboto Condensed";
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: left;
+    letter-spacing: 0.12px;
+}
+
+.first {
+    padding-bottom: 30px;
+}
+
+.about h1 {
+    color: #f44336;
+    font-family: Poppins;
+    font-weight: 500;
+    text-align: left;
+    padding-top: 14px;
+    padding-bottom: 35px;
+}
+
+.about img {
+    padding-left: 33px;
+}

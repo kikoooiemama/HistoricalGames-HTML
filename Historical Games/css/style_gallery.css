@@ -1,0 +1,103 @@
+.gallery {
+    height: 889px;
+    background-color: white;
+    /*    position: relative;*/
+    padding-left: 375px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.gallery h1 {
+    text-align: center;
+    padding-right: 375px;
+    padding-top: 93px;
+    padding-bottom: 92px;
+    color: #f44336;
+    font-family: 'Poppins';
+    font-weight: 500;
+    line-height: 48px;
+}
+
+.game {
+    display: inline;
+    float: left;
+    text-align: center;
+    width: 270px;
+    padding-left: 29px
+}
+
+.game.g {
+    padding-left: 0px!important;
+}
+
+.game.g img {
+    padding-left: 0px!important;
+    border: 1px solid #acacac;
+    display: block;
+    padding: -1px;
+}
+
+.game-text {
+    text-align: center;
+    background-color: #f7f7f7;
+    width: 271px;
+    height: 102px;
+}
+
+.game-text {
+    padding-bottom: 13px;
+}
+
+.game img {
+    display: block;
+}
+
+.game-text a {
+    text-decoration: none;
+    width: 130px;
+    height: 30px;
+    background-color: #f44336;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.14px;
+    padding: 8px 52px;
+}
+
+.game-text a:hover {
+    background-color: #71de7c;
+}
+
+.game-text.acr h5 {
+    color: #000000;
+    font-size: 14px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    letter-spacing: 0.14px;
+    padding-top: 18px;
+    padding-bottom: 29px;
+}
+
+.game-text.tr h5,
+.game-text.ryse h5,
+.game-text.wow h5 {
+    color: #000000;
+    font-size: 14px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    letter-spacing: 0.14px;
+    padding-top: 20px;
+}
+
+.game-text.tr h5 {
+    padding-bottom: 30px;
+}
+
+.game-text.ryse h5 {
+    padding-bottom: 30px;
+}
+
+.game-text.wow h5 {
+    padding-bottom: 7px;
+}

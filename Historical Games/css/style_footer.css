@@ -1,0 +1,20 @@
+.footer {
+    width: 1920px;
+    margin: 0 auto;
+}
+
+.footer {
+    height: 71px;
+    background-color: black;
+}
+
+.footer p {
+    color: #ffffff;
+    font-family: "Arial Narrow";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.16px;
+    padding-top: 29px;
+}

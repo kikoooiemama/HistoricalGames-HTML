@@ -1,0 +1,218 @@
+@widthAll: 1920px;
+@backColor: #f7f7f7;
+@sliderHeight: 169px;
+@headerHeight: 90px;
+@headerColor: white;
+@headerBgColor: black;
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: @widthAll;
+    margin: 0 auto;
+}
+
+.slider {
+    height: 169px;
+    background-color: @backColor;
+    padding-top: 13px;
+    position: relative;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*----- Header -----*/
+
+.header {
+    height: @headerHeight;
+    background-color: @headerBgColor;
+    opacity: 0.7;
+    color: @headerColor;
+    font-family: "Roboto Condensed";
+}
+
+.header ul {
+    float: right;
+}
+
+.historical-games {
+    padding-left: 475px;
+    padding-top: 24px;
+    float: left;
+}
+
+.historical {
+    color: @headerColor;
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 22.36px;
+    text-align: left;
+    letter-spacing: 0.77px;
+}
+
+.games {
+    padding-top: 5px;
+    padding-left: 1px;
+    color: @headerColor;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 31.0px;
+}
+
+.header ul li {
+    float: left;
+    list-style-type: none;
+}
+
+.header-search {
+    padding-right: 489px;
+    padding-top: 23px;
+    padding-bottom: 22px;
+    flex-wrap: wrap;
+}
+
+.search-list {
+    border: 1px solid @headerColor;
+}
+
+.header-search input {
+    display: inline-block;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: @headerColor;
+    font-family: "Roboto Condensed";
+    font-size: 17px;
+    font-weight: 400;
+    margin: 0;
+    border: 0px;
+    height: 36px;
+    background-color: transparent;
+    box-sizing: border-box;
+    width: 140px;
+}
+
+.header-search input::placeholder {
+    color: @headerColor;
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 0.36px;
+}
+
+.header-search input:focus,
+.header-search input:active {
+    outline: none;
+}
+
+.search-list.i {
+    display: inline-block;
+    padding-left: 17px;
+    padding-right: 15px;
+    padding-top: 9px;
+    padding-bottom: 4px;
+    box-sizing: border-box;
+}
+
+.header-contact-list.one {
+    padding-top: 32px;
+    padding-right: 100px;
+    padding-left: 14px;
+    color: @headerColor;
+    font-family: "Roboto Condensed";
+    font-size: 17px;
+    font-weight: 300;
+    letter-spacing: 0.36px;
+}
+
+.header-contact-list .header-email {
+    padding-top: 33px;
+}
+
+.header-contact-list .phone {
+    padding-top: 27px;
+    padding-right: 14px;
+}
+
+.header-contact-list.three {
+    padding-top: 32px;
+    padding-right: 39px;
+    color: @headerColor;
+    font-family: "Roboto Condensed";
+    font-size: 17px;
+    font-weight: 300;
+    letter-spacing: 0.36px;
+}
+
+
+/*----- Menu -----*/
+
+@menuColorActive: black;
+@menuColor: #8c8c8c;
+.menu {
+    width: @widthAll;
+    border-bottom: 1px solid @menuColorActive;
+    height: 78px;
+    font-family: 'Roboto Condensed', sans-serif;
+    position: absolute;
+    text-align: center;
+}
+
+.menu ul {
+    display: inline-block;
+}
+
+.menu-list {
+    list-style-type: none;
+    float: left;
+    padding-top: 32px;
+    padding-bottom: 25px;
+    margin-left: 6px;
+}
+
+.menu-link {
+    color: @menuColor;
+    font-family: "Roboto Condensed";
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: normal;
+    text-decoration: none;
+    padding: 10px 10px;
+    text-align: center;
+    letter-spacing: 0.36px;
+}
+
+.menu-link-active a {
+    margin-left: 0;
+    color: @menuColorActive;
+}
+
+.menu-list.menu-link-active {
+    border-bottom: 3px solid @menuColorActive;
+}
+
+.menu-link:hover {
+    color: @menuColorActive;
+}
+
+.menu ul:hover .menu-link.active-link {
+    color: @menuColor;
+}
+
+.menu ul .menu-list.menu-link-active .menu-link.active-link:hover {
+    color: @menuColorActive;
+}
+
+.menu-link:active,
+.menu ul .menu-list.menu-link-active .menu-link.active-link:active {
+    color: #2a2d4d;
+}
